@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header class="header two-section">
+      <div class="logo">
+        <img src="images/Vector.svg" alt="" />
+        <h3 class="logo-title">ConnectU</h3>
+      </div>
+      <div class="dynamic">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="search" placeholder="Search" />
+        <img src="images/profile.png" alt="photo" />
+      </div>
+    </header>
+    <main class="home-main">
+        <div class="container">
+            <h3>Feed</h3>
+            <form class="new">
+          <textarea 
+          name="post" 
+          id="add-post"
+          ></textarea>
+          <img src="images/profile.png" alt="" class="text-image" />
+          <label for="imageInput">
+            <img src="images/image.svg" class="image-icon"  alt="input image">
+            <input
+              type="file"
+              name="userImage"
+              id="imageInput"
+              accept="image/*"
+            />
+          </label>
+          <img src="images/sticker.svg" class="sticker" alt="sticker">
+          <button>
+            <img src="images/send.svg" alt="send">
+          </button>
+            </form>
+            <h2 class="recent-posts">Recent Posts</h2>
+            <div class="home-post">
+                <div class="post">
+                    <div class="post-text">
+                        <p>2h ago</p>
+                        <h4>Olivia Bennett</h4>
+                        <p>
+                        Just had the best coffee at a new cafe downtown! Highly
+                        recommend checking it out. #coffee #newcafe
+                        </p>
+                    </div>
+                    <img src="images/post1.png" alt="" />
+                </div>
+                <div class="reactions">
+                    <div class="react">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>12</span>
+                    </div>
+                    <div class="react">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>5</span>
+                    </div>
+                </div>
+                <div class="author"> 
+                    <img src="images/profile.png" alt="author photo" />
+                    <div class="author-info">
+                        <h4>Owen Carter</h4>
+                        <span>1h ago</span>
+                        <p>Sounds amazing! I'll definitely add it to my list.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+  </body>
+</html>

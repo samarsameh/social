@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <header class="header two-section">
+        <div class="logo">
+            <img src="images/Vector.svg" alt="">
+            <h3 class="logo-title">ConnectU</h3>
+        </div>
+        <div class="dynamic">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search" placeholder="Search">
+            <img src="images/profile.png" alt="photo">
+        </div>
+    </header>
+    <div class="main-page">
+        <aside>
+            <h3>Friends</h3>
+            <div class="friend">
+                <img src="images/profile.png" alt="friend photo">
+                <div class="friend-name">
+                    <h4>Emma Carter</h4>
+                    <p>@emma_c</p>
+                </div>
+            </div>
+            <div class="friend">
+                <img src="images/profile.png" alt="friend photo">
+                <div class="friend-name">
+                    <h4>Emma Carter</h4>
+                    <p>@emma_c</p>
+                </div>
+            </div>
+            <div class="friend">
+                <img src="images/profile.png" alt="friend photo">
+                <div class="friend-name">
+                    <h4>Emma Carter</h4>
+                    <p>@emma_c</p>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <h1>Profile Settings</h1>
+
+            <div class="user-profile">
+                <img src="images/profile.png" alt="user photo">
+                <h3>Sophia Bennett</h3>
+                <p >@sophia_b</p>
+            </div>
+
+            <form id="edit-profile">
+                <label for="fname">
+                    Username
+                    <input type="text" id="fname" name="fname">
+                </label>
+                <label for="lname">
+                    Email
+                    <input type="text" id="lname" name="lname">
+                </label>
+                <label for="bio">
+                    Bio
+                    <textarea name="bio" 
+                    id="bio"
+                    rows="8"
+                    ></textarea>
+                </label>
+                <button>Update Profile</button>
+            </form>
+
+            <div class="empty"></div>
+
+            <div class="posts-container">
+                <h3>My Posts</h3>
+                <div class="post">
+                    <div class="post-text">
+                        <p>2d ago</p>
+                        <h4>Exploring new digital art techniques</h4>
+                        <p>Experimenting with vibrant colors and abstract 
+                            shapes in my latest digital painting. 
+                            #digitalart #art #abstract
+                        </p>
+                    </div>
+                    <img src="images/post1.png" alt="photo">
+                </div>
+                <div class="post">
+                    <div class="post-text">
+                        <p>1w ago</p>
+                        <h4>Coffee and creativity</h4>
+                        <p>Nothing fuels my art like a good cup of coffee. 
+                            What's your favorite creative fuel? #coffee 
+                            #art #creativefuel
+                        </p>
+                    </div>
+                    <img src="images/post2.png" alt="photo">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
